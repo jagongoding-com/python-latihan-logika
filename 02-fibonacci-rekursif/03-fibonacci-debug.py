@@ -7,7 +7,7 @@ def fibonacci (n):
   angka2 = listSebelumN[-1] if len(listSebelumN) > 2 else 1
 
   print('listSebelumN', listSebelumN)
-  print(angka1, angka2)
+  print(f'angka1: {angka1}, angka2: {angka2}')
 
   return listSebelumN + [angka1 + angka2]
 
