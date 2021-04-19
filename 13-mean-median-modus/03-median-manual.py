@@ -7,7 +7,7 @@ def nilai_tengah(deret):
   if n % 2 == 1:
     return deret[i_tengah]
 
-  # jika n ganjil
+  # jika n genap
   return (deret[i_tengah - 1] + deret[i_tengah]) / 2
 
 inputan = input('Masukkan deret bilangan (pisahkan dengan koma): ')
